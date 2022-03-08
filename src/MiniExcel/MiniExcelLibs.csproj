@@ -2,6 +2,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net45;netstandard2.0;net5.0</TargetFrameworks>
 		<Version>1.23.2</Version>
+		<PackageVersion>1.23.2.3</PackageVersion>
 	</PropertyGroup>
 	<PropertyGroup>
 		<AssemblyName>MiniExcel</AssemblyName>
@@ -16,16 +17,16 @@ Issues : https://github.com/shps951023/MiniExcel/issues
 Todo : https://github.com/shps951023/MiniExcel/projects/1?fullscreen=true
 </Description>
 		<Authors>LIN,WEI-HAN</Authors>
-		<PackageId>MiniExcel</PackageId>
+		<PackageId>Weilence.MiniExcel</PackageId>
 		<Copyright>LIN,WEI-HAN, 2021 onwards</Copyright>
 		<NeutralLanguage>en</NeutralLanguage>
 		<license>https://raw.githubusercontent.com/shps951023/MiniExcel/master/LICENSE</license>
 		<RootNamespace>MiniExcelLibs</RootNamespace>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/shps951023/MiniExcel</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/shps951023/MiniExcel</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Weilence/MiniExcel</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Weilence/MiniExcel</RepositoryUrl>
 		<PackageIcon>icon.png</PackageIcon>
-		<PackageReleaseNotes>Please Check [Release Notes](https://github.com/shps951023/MiniExcel/tree/master/docs)</PackageReleaseNotes>
+		<PackageReleaseNotes>Support strict open xml</PackageReleaseNotes>
 		<RepositoryType>Github</RepositoryType>
 	</PropertyGroup>
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net461'">
